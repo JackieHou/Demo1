@@ -3,7 +3,7 @@ package jackiehou;
 public class Test1 {
 
 	public static void main(String[] args) {
-
+		//simple thread demo
 		//t1();
 		Object o = new Object();
 		Thread thread1 = new Thread(new ObjectSync("a", o));

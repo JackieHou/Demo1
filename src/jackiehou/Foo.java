@@ -12,6 +12,7 @@ public class Foo {
 				Thread.sleep(1000*10);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
+				System.out.println(e);
 				e.printStackTrace();
 			}
 			System.out.println(name+" lockmethod sleep after");

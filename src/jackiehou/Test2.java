@@ -4,14 +4,6 @@ public class Test1 {
 
 	public static void main(String[] args) {
 
-		t1();
-		//Object o = new Object();
-		//Thread thread1 = new Thread(new ObjectSync("a", o));
-		//Thread thread2 = new Thread(new ObjectSync("b", o));
-		//thread1.start();
-		//thread2.start();
-
-		//simple thread demo
 		//t1();
 		Object o = new Object();
 		Thread thread1 = new Thread(new ObjectSync("a", o));

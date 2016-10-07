@@ -11,8 +11,12 @@ public class Foo {
 			try {
 				Thread.sleep(1000*10);
 			} catch (InterruptedException e) {
+//<<<<<<< HEAD
 				// TODO Auto-generated catch block
 				System.out.println(e);
+//=======
+				
+//>>>>>>> d7473ec... fix debug by branche thread1.0
 				e.printStackTrace();
 			}
 			System.out.println(name+" lockmethod sleep after");
@@ -33,7 +37,7 @@ public class Foo {
 			try {
 				Thread.sleep(1000*10);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 			System.out.println(name+" lockmethod1 sleep after");
